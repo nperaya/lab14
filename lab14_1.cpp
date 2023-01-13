@@ -17,3 +17,12 @@ int main(){
     cout << "\nMin = " << B[5];
     return 0;
 }
+
+double max(double d[],int N){
+    double max = d[0];
+    for(int i=1;i<N;i++){
+        if (d[i]>max) max=d[i];
+    }
+    return max;
+}
+
